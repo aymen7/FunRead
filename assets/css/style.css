@@ -1,6 +1,7 @@
 
 body {
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+	font-family: 'Boogaloo', cursive;
     font-size: 16px;
     font-weight: 300;
     color: #888;
@@ -174,10 +175,9 @@ ul.navbar-nav {
 .navbar-brand {
 	width: 72px;
 	height: 60px;
-	background: url(../img/logo.png) left center no-repeat;
+	background: url(../img/FunRead2.png) left center no-repeat;
 	text-indent: -99999px;
 }
-
 .navbar-toggle {
 	margin-top: 13px;
 	margin-bottom: 13px;
@@ -187,9 +187,15 @@ ul.navbar-nav {
 /***** Top content *****/
 
 .inner-bg {
-    padding: 280px 0;
+    padding-top: 160px;
+    padding-bottom: 120px;
 }
+.logo-wrapper{
 
+}
+.logo-wrapper img {
+ max-width: 18%;
+}
 .top-content .text {
 	color: #fff;
 }
@@ -205,7 +211,27 @@ ul.navbar-nav {
 .top-content .top-big-link {
 	margin-top: 35px;
 }
-
+#subscribe-form .form-group{
+	margin-left: 69px;
+	margin-top: 50px;
+}
+#subscribe-form input[type=email],.form-control{
+	margin-right: 5%;
+	width: 60%;
+}
+#subscribe-form button{
+	margin-left: 0px;
+	width: 25%;
+	position: relative;
+	top:-8px;
+}
+#subscribe-form button:hover{
+	color: white;
+	background-color: #66d6c5;
+}
+#section07{
+	margin-left: 35%;
+}
 
 /***** Features *****/
 
@@ -283,7 +309,9 @@ ul.navbar-nav {
 	float: right;
 	width: 86%;
 }
-
+#preview-img{
+	width: 50%;
+}
 
 /***** Great support *****/
 
@@ -460,3 +488,64 @@ footer {
 .footer-copyright {
 	margin-top: 25px;
 }
+/*------------------------------------scroll down -------------*/
+#section07 div {
+	position: absolute;
+	top: 570px;
+	margin-left: 150px;
+	padding-top: 80px;
+}
+#section07 div span {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 24px;
+	height: 24px;
+	margin-left: -12px;
+	border-left: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-animation: sdb07 2s infinite;
+	animation: sdb07 2s infinite;
+	opacity: 0;
+	box-sizing: border-box;
+}
+#section07 div span:nth-of-type(1) {
+	-webkit-animation-delay: 0s;
+	animation-delay: 0s;
+}
+#section07 div span:nth-of-type(2) {
+	top: 16px;
+	-webkit-animation-delay: .15s;
+	animation-delay: .15s;
+}
+#section07 div span:nth-of-type(3) {
+	top: 32px;
+	-webkit-animation-delay: .3s;
+	animation-delay: .3s;
+}
+@-webkit-keyframes sdb07 {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes sdb07 {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+

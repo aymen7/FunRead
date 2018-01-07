@@ -29,10 +29,10 @@ jQuery(document).ready(function() {
     /*
         Background slideshow
     */
-    $('.top-content').backstretch("assets/img/backgrounds/1.jpg");
-    $('.how-it-works-container').backstretch("assets/img/backgrounds/1.jpg");
-    $('.call-to-action-container').backstretch("assets/img/backgrounds/1.jpg");
-    
+    $('.top-content').backstretch("assets/img/backgrounds/2.jpg");
+    $('.how-it-works-container').backstretch("assets/img/backgrounds/2.jpg");
+    $('.call-to-action-container').backstretch("assets/img/backgrounds/2.jpg");
+
     $('#top-navbar-1').on('shown.bs.collapse', function(){
     	$('.top-content').backstretch("resize");
     });
@@ -63,3 +63,21 @@ jQuery(window).load(function() {
 	
 });
 
+$(document).ready(function () {
+    $("#subscribe-form").submit(function(e) {
+
+        var url = "assets/scripts/controllers/subscribe-form.php"; // the script where you handle the form input.
+
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: $("#subscribe-form input").serialize(), // serializes the form's elements.
+            success: function(data)
+            {
+                alert(data); // show response from the php script.
+            }
+        });
+
+        e.preventDefault(); // avoid to execute the actual submit of the form.
+    });
+});
