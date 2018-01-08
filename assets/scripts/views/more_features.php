@@ -26,7 +26,7 @@
                     </div>
                     <h3>Interactive</h3>
                     <div class="more-features-box-text-description">
-                        interactive reading thanks to multiple quizz questions that allow the access to the game.
+                        Great set of features will keep your child hock and interested .
                     </div>
                 </div>
                 <div class="more-features-box-text">
@@ -35,8 +35,7 @@
                     </div>
                     <h3>Entertainment</h3>
                     <div class="more-features-box-text-description">
-                        Fun because your child can play his favorite games once he accumulates
-                        enough points and once he has read enough .
+                        Quizzes and games if that is not FUN i don't know what is .
                     </div>
                 </div>
                 <div class="more-features-box-text">
@@ -45,7 +44,7 @@
                     </div>
                     <h3>Progress Tracking</h3>
                     <div class="more-features-box-text-description">
-                        because you can access your child statistics at any time thanks to the parent mode .
+                        Access your child's performances at any time .
                     </div>
                 </div>
                 <div class="more-features-box-text">
@@ -54,7 +53,7 @@
                     </div>
                     <h3>Rich Library</h3>
                     <div class="more-features-box-text-description">
-                        LARGE LIBRARY by being able to purshase any book you want .
+                         If you think about it you can have it .
                     </div>
                 </div>
 

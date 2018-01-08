@@ -74,7 +74,7 @@ $(document).ready(function () {
             data: $("#subscribe-form input").serialize(), // serializes the form's elements.
             success: function(data)
             {
-                alert(data); // show response from the php script.
+                //alert(data); // show response from the php script.
             }
         });
 

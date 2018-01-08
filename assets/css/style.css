@@ -1,4 +1,6 @@
-
+a img{
+	display: none;
+}
 body {
     /*font-family: 'Roboto', sans-serif;*/
 	font-family: 'Boogaloo', cursive;
@@ -185,11 +187,12 @@ ul.navbar-nav {
 /***** Top content *****/
 
 .inner-bg {
-    padding-top: 160px;
+    padding-top: 50px;
     padding-bottom: 120px;
 }
 .logo-wrapper{
-  margin-left: 20%;
+  margin-left: 17%;
+	margin-top: 95px;
 }
 .logo-wrapper img {
  max-width: 18%;
@@ -215,11 +218,11 @@ ul.navbar-nav {
 }
 #subscribe-form input[type=email],.form-control{
 	margin-right: 5%;
-	width: 60%;
+	width: 71%;
 }
 #subscribe-form button{
 	margin-left: 0px;
-	width: 25%;
+	width: 24%;
 	position: relative;
 	top:-8px;
 }
@@ -557,5 +560,31 @@ footer {
 	margin-left: -69px;
 }
 #banner-h1{
-	margin-left: 20%;
+	margin-left: 8%;
+}
+#banner-right img{
+	width: 200%;
+	height: 200%;
+}
+#banner-left{
+	padding-top: 40px;
+}
+#appel-btn{
+	width: 20%;
+}
+#android-btn{
+	width: 16%;
+}
+#buttons-wrapper{
+	position: relative;
+	left: 30%;
+}
+#buttons-wrapper a:first-child img {
+	width: 30%;
+}
+#buttons-wrapper a:nth-child(2) img {
+	width: 26%;
+}
+.btn , .btn-default,.form-control{
+	padding-left: 9px;
 }
