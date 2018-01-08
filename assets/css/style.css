@@ -8,7 +8,6 @@ body {
     line-height: 30px;
     text-align: center;
 }
-
 strong { font-weight: 500; }
 
 a, a:hover, a:focus {
@@ -45,7 +44,6 @@ img { max-width: 100%; }
 
 ::-moz-selection { background: #66d6c5; color: #fff; text-shadow: none; }
 ::selection { background: #66d6c5; color: #fff; text-shadow: none; }
-
 
 /***** Loader *****/
 
@@ -191,7 +189,7 @@ ul.navbar-nav {
     padding-bottom: 120px;
 }
 .logo-wrapper{
-
+  margin-left: 20%;
 }
 .logo-wrapper img {
  max-width: 18%;
@@ -453,8 +451,12 @@ ul.navbar-nav {
 
 .about-us-box .about-us-social a { margin: 0 4px; color: #ddd; }
 .about-us-box .about-us-social a:hover, .about-us-box .about-us-social a:focus { color: #66d6c5; }
-
-
+#second-row{
+	margin-left: 20%;
+}
+#member4{
+	margin-right: 5%;
+}
 /***** Footer *****/
 
 footer {
@@ -547,5 +549,13 @@ footer {
 		opacity: 0;
 	}
 }
-
-
+/*--------------*/
+ #banner-div{
+	 text-align: left;
+ }
+#form-wrapper{
+	margin-left: -69px;
+}
+#banner-h1{
+	margin-left: 20%;
+}

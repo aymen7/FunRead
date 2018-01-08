@@ -33,9 +33,9 @@
                     <div class="more-features-box-text-icon">
                         <i class="fa fa-smile-o"></i>
                     </div>
-                    <h3>Fun</h3>
+                    <h3>Entertainment</h3>
                     <div class="more-features-box-text-description">
-                        and that because your child can play his favorite games once he accumulates
+                        Fun because your child can play his favorite games once he accumulates
                         enough points and once he has read enough .
                     </div>
                 </div>

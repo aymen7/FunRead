@@ -82,7 +82,7 @@
         <?php include 'assets/scripts/views/call_to_action.php';?>
 
         <!-- About us -->
-        <?php //include 'assets/scripts/views/about.php';?>
+        <?php include 'assets/scripts/views/about.php';?>
 
         <!-- Footer -->
         <?php include 'assets/scripts/views/footer.php';?>
