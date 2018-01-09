@@ -13,8 +13,7 @@
                 <h2>Join Us <strong>Now </strong></h2>
                 <div class="divider-1 wow fadeInUp"><span></span></div>
                 <p>
-                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-                    aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud.
+                    hurry up and be one of the lucky 1000 customers that will have one free month of our service
                 </p>
             </div>
         </div>

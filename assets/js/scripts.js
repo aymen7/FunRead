@@ -75,6 +75,7 @@ $(document).ready(function () {
             success: function(data)
             {
                 //alert(data); // show response from the php script.
+				$('#email_input').val('');
             }
         });
 

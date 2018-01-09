@@ -10,9 +10,8 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 footer-social">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <!--a href="#"><i class="fa fa-dribbble"></i></a-->
-                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.facebook.com/FunRead-1851505698473556/"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/funread_aia/"><i class="fa fa-instagram"></i></a>
             </div>
         </div>
         <!--div class="row">
